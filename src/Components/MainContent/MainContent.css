@@ -1,0 +1,18 @@
+body {
+    background-color: #fafafa;
+}
+.maincontent__container {
+    max-width: 47% !important;
+    max-height: 800px;
+    /*overflow-y:scroll for scrollbar*/
+}
+
+.maincontent__container::-webkit-scrollbar {
+   /*display:none for hiding scrollbar*/
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .maincontent__container {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
